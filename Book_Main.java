@@ -1,11 +1,8 @@
 public class Book_Main {
   public static void main(String[] args) {
 
-    Book book1 = new Book("Java Programming", "Zainab Kashif");
-    Book book2 = new Book("Python Basics");
-
-    book1.borrowBook(); 
-    book1.borrowBook(); 
+    Book book1 = new Book("Java", "Zainab Kashif");
+    Book book2 = new Book("Twinkling watermelon");
 
     book1.returnBook();
     book1.borrowBook();

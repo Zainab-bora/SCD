@@ -38,8 +38,9 @@ public class Book {
   }
 
   public void returnBook() {
-    isAvailable = true;
-    System.out.println("Book returned: " + title);
+    if(isAvailable=false) {
+    System.out.println("Book returned: " + title);}
+    
   }
 
   public void displayBookInfo() {
