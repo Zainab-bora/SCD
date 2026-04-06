@@ -1,4 +1,4 @@
-public class Lab6_Main {
+public class Book_Main {
   public static void main(String[] args) {
 
     Book book1 = new Book("Java Programming", "Zainab Kashif");
